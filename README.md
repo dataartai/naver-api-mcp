@@ -31,8 +31,8 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/dataartai/naver-shopping-insight-mcp
-cd naver-shopping-insight-mcp
+git clone https://github.com/dataartai/naver-api-mcp.git
+cd naver-api-mcp
 
 # 의존성 설치
 npm install
