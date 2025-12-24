@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "naver-shopping-insight": {
+      "command": "node",
+      "args": [
+        "D:\\OneDrive\\Cursorhome\\naver-shopping-insight-mcp\\dist\\index.js"
+      ],
+      "cwd": "D:\\OneDrive\\Cursorhome\\naver-shopping-insight-mcp",
+      "env": {
+        "NAVER_CLIENT_ID": "your_NAVER_CLIENT_ID",
+        "NAVER_CLIENT_SECRET": "your_NAVER_CLIENT_SECRET"
+      }
+    }
+  }
+}
