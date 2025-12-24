@@ -1,7 +1,7 @@
 {
-  "name": "naver-shopping-insight-mcp",
-  "version": "1.0.0",
-  "description": "네이버 쇼핑인사이트 MCP 서버",
+  "name": "naver-api-mcp",
+  "version": "2.0.0",
+  "description": "네이버 API 통합 MCP 서버 (쇼핑인사이트 + 검색 API)",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -12,14 +12,19 @@
   "keywords": [
     "naver",
     "shopping-insight",
+    "search-api",
     "mcp",
-    "datalab"
+    "datalab",
+    "blog",
+    "kin",
+    "shopping",
+    "encyclopedia"
   ],
   "author": "dataartai",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dataartai/naver-shopping-insight-mcp.git"
+    "url": "https://github.com/dataartai/naver-api-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",

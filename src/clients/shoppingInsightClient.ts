@@ -89,7 +89,7 @@ export type KeywordRequest = z.infer<typeof KeywordRequestSchema>;
 export type CategorySingleRequest = z.infer<typeof CategorySingleRequestSchema>;
 export type KeywordSingleRequest = z.infer<typeof KeywordSingleRequestSchema>;
 
-// 네이버 클라이언트 클래스
+// 네이버 쇼핑인사이트 클라이언트 클래스
 export class NaverShoppingInsightClient {
   private headers: Record<string, string>;
 
@@ -179,4 +179,5 @@ export class NaverShoppingInsightClient {
       throw new Error(`네이버 API 요청 중 오류 발생: ${error.message}`);
     }
   }
-} 
+}
+
