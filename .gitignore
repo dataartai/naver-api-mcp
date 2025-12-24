@@ -36,5 +36,5 @@ out/
 Thumbs.db 
 
 # Demo & Report
-.demo-scenarios.js
-.*report.md
+demo-scenarios.js
+*report.md
